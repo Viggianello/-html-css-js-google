@@ -69,11 +69,11 @@ header a:hover {
 
 .dropdown a {
     line-height: 40px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 #main-menu .cta a {
     background-color: rgb(6, 102, 235);
-    border-radius: 20px;
+    border-radius: 4px;
     color: white;
 }
