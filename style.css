@@ -19,7 +19,8 @@ a {
 }
 
 #footer-container{
-    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
 }
 
 .header-left, .footer-left {
@@ -46,8 +47,8 @@ header a:hover, footer a:hover{
 
 .header-right, .footer-right {
     width: 50%;
-    height: 100px;
 }
+
 
 #main-menu {
     text-align: right;
@@ -55,7 +56,6 @@ header a:hover, footer a:hover{
 
 #main-menu > li {
     display: inline-block;
-    position: relative;
 }
 
 .dropdown {
@@ -63,22 +63,26 @@ header a:hover, footer a:hover{
     list-style-type: none;
     position: absolute;
     top: 80px;
-    left: 50%;
     transform: translateX(-50%);
     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
     background-color: white;
     padding: 20px;
     text-align: left;
-    width: 350px;
+    width: 300px;
 }
 
 .dropdown li{
     float: left;
     width: 33.3%;
+    text-align: center;
 }
+
 .dropdown li img{
     display: block;
-    width: 33.3%;
+    width: auto;
+    height: 30px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .dropdown a {
