@@ -117,10 +117,35 @@ header a:hover, #footer-container a:hover{
 
 input{
     padding: 10px;
-    width: 50%;
+    width: 100%;
+    padding-left: 75px;
 }
 
 .pagina button{
     margin-left: 10px;
     padding: 5px;
+}
+
+.pagina.input{
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+.icona-input{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+}
+
+.icona-input.left{
+    left: -20px;
+}
+
+.icona-input.right{
+    right: -20px;
+}
+
+.fa-search, .fa-microphone{
+    font-size: 14px;
 }
