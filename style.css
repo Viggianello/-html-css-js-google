@@ -9,7 +9,7 @@ a {
 }
 
 .container {
-    width: 1280px;
+    width: 96%;
     margin: auto;
 }
 
@@ -44,7 +44,7 @@ footer .menu-left a{
     padding: 0px 10px;
 }
 
-header a, footer a{
+header a, footer a,input{
     color: #8C8E8F;
 }
 
