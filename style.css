@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+body{
+    overflow-y: hidden;
+}
+
 .container {
     width: 1280px;
     margin: auto;
@@ -20,7 +24,7 @@ a {
 
 #footer-container{
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
 }
 
 .header-left, .footer-left {
@@ -66,7 +70,7 @@ header a:hover, footer a:hover{
     list-style-type: none;
     position: absolute;
     top: 80px;
-    transform: translateX(-50%);
+    transform: translateX(-60%);
     box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
     padding: 20px;
     width: 300px;
